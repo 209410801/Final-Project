@@ -1,0 +1,56 @@
+.p1__container h1 {
+    font-size: 11rem;
+    margin-bottom: 0px;
+}
+
+.p1__container p {
+    font-size: 3rem;
+    margin-bottom: 10rem;
+
+}
+
+.p3__container .heading {
+    
+    text-align: center;
+    ul {
+        display: flex;
+        justify-content: center;
+        margin: 1rem auto;
+        li{
+            list-style-type: none;
+            margin: 0 1rem;
+        }
+        .red{
+            color:$red-color;
+            font-weight: $bold;
+        }
+        .yellow{
+            color:$yellow-color;
+            font-weight: $bold;
+        }
+        .green{
+            color:$green-color;
+            font-weight: $bold;
+        }
+        .blue{
+            color:$blue-color;
+            font-weight: $bold;
+        }
+        .Indian{
+            color:$Indian-color;
+            font-weight: $bold;
+        }
+        .purple{
+            color:$purple-color;
+            font-weight: $bold;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+#havor{
+    font-size: 0.1rem;
+}

@@ -1,0 +1,28 @@
+.p1__container h1 {
+  font-size: 110px;
+  margin-bottom: 0px;
+}
+
+.p1__container p {
+  font-size: 30px;
+  margin-bottom: 100px;
+}
+
+.p3__container .heading {
+  text-align: center;
+}
+.p3__container .heading ul {
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+}
+.p3__container .heading ul li {
+  list-style-type: none;
+  margin: 0 10px;
+}
+.p3__container .heading ul .red {
+  color: red;
+}
+.p3__container .heading ul a {
+  text-decoration: none;
+}

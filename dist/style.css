@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.p1__container h1 {
+  font-size: 11rem;
+  margin-bottom: 0px;
+}
+
+.p1__container p {
+  font-size: 3rem;
+  margin-bottom: 10rem;
+}
+
+.p3__container .heading {
+  text-align: center;
+}
+.p3__container .heading ul {
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto;
+}
+.p3__container .heading ul li {
+  list-style-type: none;
+  margin: 0 1rem;
+}
+.p3__container .heading ul .red {
+  color: red;
+  font-weight: bold;
+}
+.p3__container .heading ul .yellow {
+  color: yellow;
+  font-weight: bold;
+}
+.p3__container .heading ul .green {
+  color: green;
+  font-weight: bold;
+}
+.p3__container .heading ul .blue {
+  color: blue;
+  font-weight: bold;
+}
+.p3__container .heading ul .Indian {
+  color: #4B0082;
+  font-weight: bold;
+}
+.p3__container .heading ul .purple {
+  color: purple;
+  font-weight: bold;
+}
+.p3__container .heading ul a {
+  text-decoration: none;
+}
+
+#havor {
+  font-size: 0.1rem;
+}
+
+:root {
+  --bg-color:rgb(235, 235, 176);
+  --white-color:#fff;
+  --black-color:black;
+  --red-color:red;
+  --orange-color:orange;
+  --yellow-color:yellow;
+  --green-color:green;
+  --blue-color:blue;
+  --Indian-color:#4B0082;
+  --purple-color:purple;
+  --body-font: "Open Sans", sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 2rem;
+  background: var(--bg-color);
+  font-family: var(--body-font);
+}
+body .container .left__narbar {
+  width: 10rem;
+  height: 95vh;
+  background: var(--yellow-color);
+  margin: 0 auto;
+  position: fixed;
+  z-index: 3;
+  text-align: center;
+  font-size: 1.4rem;
+}
+body .container .left__narbar:hover {
+  background: #fff;
+}
+body .container .left__narbar a {
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+body .container .left__narbar a img {
+  width: 4rem;
+  height: 4rem;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+body .container .left__narbar ul {
+  margin: 2rem 0;
+}
+body .container .left__narbar ul li {
+  list-style-type: none;
+  margin: 2rem 0;
+}
+body .container .left__narbar ul li a {
+  color: black;
+  text-decoration: none;
+}
+body .container .top__narbar {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  z-index: 3;
+  top: 30;
+  width: 100%;
+}
+body .container .top__narbar .search {
+  margin: 0 1rem 0 12rem;
+  border-radius: 0.5rem;
+  width: 75%;
+  height: 3.5rem;
+  flex: 1;
+}
+body .container .top__narbar .search:hover {
+  background: yellow;
+}
+body .container .top__narbar .top__sing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+}
+body .container .top__narbar .top__sing li {
+  list-style-type: none;
+}
+body .container .top__narbar .top__sing li .sing__in {
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 0.8rem 1rem;
+  border-radius: 0.5rem;
+}
+body .container .top__narbar .top__sing li .sing__in:hover {
+  background: yellow;
+}
+body .container .top__narbar .top__sing li a {
+  text-decoration: none;
+  margin: 0 1.5rem;
+  color: black;
+  font-size: 1.3rem;
+}
+body .container .main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 87.5%;
+  height: 100%;
+  margin: 0 0 0 150px;
+}
+body .container .main .p1__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(./img/behind.jpg) no-repeat center/cover;
+  width: 100%;
+  height: 700px;
+  margin-right: 60px;
+  color: #fff;
+  padding-bottom: 10rem;
+  margin-top: 5rem;
+}
+body .container .main .p3__container {
+  background-color: #fff;
+  width: 100%;
+  height: 10rem;
+  margin-right: 60px;
+}
+body .container .main .p3__container:hover {
+  background: yellow;
+}
+
+@media screen and (max-width: 52.5rem) {
+  .left__narbar {
+    display: none;
+  }
+
+  .search {
+    position: absolute;
+    right: 8rem;
+  }
+
+  .top__sing li {
+    display: none;
+  }
+
+  .main {
+    position: absolute;
+    right: 0.5rem;
+  }
+}
